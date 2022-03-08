@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include <sys/stat.h>
+#include <sys/types.h>
+#include <fcntl.h>
 #include <unistd.h>
 #include "memory_block_operations.h"
 
@@ -61,7 +63,8 @@ short create_block_from_file(char* temporary_file, Tab* tab){
         if(tab->blocks[i] == NULL){
             create_block_b(size, i, tab);
             
-            int fd = open(temporary_file, S_IREAD);
+            int fd = open(temporary_file, O_RDONLY);
+            if(fd == -1) return EXIT_ERROR;
             if(read(fd, tab->blocks[i]->results, size) == -1){
                 return EXIT_ERROR;
             }

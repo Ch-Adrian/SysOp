@@ -4,19 +4,12 @@
 
 #define AMT_OF_TESTS 100
 
-// void test_log1(char* message, short (*f)(char*)){
-//     printf("\t");
-//     printf(message);
-//     printf(" status: %d\n")
-// }
 
 short test1(){
     Tab* t = calloc(1, sizeof(Tab));
     t->blocks = calloc(4, sizeof(MBlock*));
     t->blocks[0] = calloc(1, sizeof(MBlock));
     t->blocks[0]->size = 0;
-    // printf("%d\n", t->blocks[0]->size);
-    // printf("dziala");
     free(t->blocks[0]);
     free(t->blocks);
     free(t);

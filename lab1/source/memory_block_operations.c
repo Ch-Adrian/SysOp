@@ -15,7 +15,7 @@ Tab* create_table(int amt_of_blocks){
 }
 
 char* exec_cmd_wc_on_files(int amt, char** files){
-    if(amt < 0 ) return EXIT_ERROR;
+    if(amt <= 0 ) return EXIT_ERROR;
 
     if(system("touch temporary.txt") == -1) return EXIT_ERROR;
 
@@ -32,9 +32,10 @@ char* exec_cmd_wc_on_files(int amt, char** files){
 
         char* command = calloc(300, sizeof(char));
         strcat(command, "wc ");
-        strcat(command, files[i]);
+        char file_name[100];
+        strcpy(file_name, files[i]);
+        strcat(command, file_name);
         strcat(command, " | grep -wo '[0-9]*' >> temporary.txt");
-        // printf(command);
         if(system(command) == -1) return EXIT_ERROR;
         free(command);
     }

@@ -1,0 +1,40 @@
+Pomiar programu zad2_sys
+
+Wywolana komenda: ./zad2_sys a big.txt
+
+Liczba znaków: 578496
+Liczba linii: 14400
+Czas wykonania:
+real time:  0.0400
+user time:  0.0300
+system time:  0.0000
+
+Wywolana komenda: ./zad2_sys a small.txt
+
+Liczba znaków: 9
+Liczba linii: 4
+Czas wykonania:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Pomiar programu zad2_lib
+
+Wywolana komenda: ./zad2_lib a big.txt
+
+Liczba znaków: 578496
+Liczba linii: 14400
+Czas wykonania:
+real time:  0.0300
+user time:  0.0100
+system time:  0.0000
+
+Wywolana komenda: ./zad2_lib a small.txt
+
+Liczba znaków: 9
+Liczba linii: 4
+Czas wykonania:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+

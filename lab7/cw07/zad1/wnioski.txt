@@ -1,0 +1,8 @@
+Dla wartosci N>5 i M > 5:
+Kucharze muszą czekac na swoja kolej upieczenia pizzy oraz dostawcy na gotowe pizze.
+Pojawiaja sie rowniez segmenty jednoczesnej pracy w 5 osob, poniewaz tyle jest maksymalnie miejsca w piecu i na stole, i czas pracy wszystkich jest w miare podobny.
+W zaleznosci od N > M( wiecej czeka kucharzy) lub N < M(wiecej czeka dostawcow) pojawiaja sie kolejki rowniez przy stole upieczonych pizz. 
+
+Dla wartości N <5 i M < 5:
+Kucharze i dostawcy maja w miare wolny dostep do pieca i stolu, dlatego moga pracowac bez wiekszych kolejek.
+Jedyne ogranicznie to dostep do stolu i pieca maksymalnie dla jednej osoby, przez co tworza sie chwilowe kolejki.

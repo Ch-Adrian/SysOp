@@ -1,0 +1,199 @@
+
+Small image with mode BLOCK
+
+Program has 1 threads and mode: block
+Thread 0: 0 sec. 2 microseconds.
+Total time: 0 s. and 340 microseconds.
+
+Program has 2 threads and mode: block
+Thread 0: 0 sec. 1 microseconds.
+Thread 1: 0 sec. 1 microseconds.
+Total time: 0 s. and 331 microseconds.
+
+Program has 4 threads and mode: block
+Thread 0: 0 sec. 0 microseconds.
+Thread 1: 0 sec. 1 microseconds.
+Thread 2: 0 sec. 0 microseconds.
+Thread 3: 0 sec. 0 microseconds.
+Total time: 0 s. and 521 microseconds.
+
+Program has 8 threads and mode: block
+Thread 0: 0 sec. 1 microseconds.
+Thread 1: 0 sec. 0 microseconds.
+Thread 2: 0 sec. 0 microseconds.
+Thread 3: 0 sec. 0 microseconds.
+Thread 4: 0 sec. 0 microseconds.
+Thread 5: 0 sec. 0 microseconds.
+Thread 6: 0 sec. 0 microseconds.
+Thread 7: 0 sec. 0 microseconds.
+Total time: 0 s. and 925 microseconds.
+
+Program has 16 threads and mode: block
+Thread 0: 0 sec. 0 microseconds.
+Thread 1: 0 sec. 0 microseconds.
+Thread 2: 0 sec. 0 microseconds.
+Thread 3: 0 sec. 0 microseconds.
+Thread 4: 0 sec. 0 microseconds.
+Thread 5: 0 sec. 0 microseconds.
+Thread 6: 0 sec. 0 microseconds.
+Thread 7: 0 sec. 0 microseconds.
+Thread 8: 0 sec. 0 microseconds.
+Thread 9: 0 sec. 0 microseconds.
+Thread 10: 0 sec. 0 microseconds.
+Thread 11: 0 sec. 0 microseconds.
+Thread 12: 0 sec. 0 microseconds.
+Thread 13: 0 sec. 0 microseconds.
+Thread 14: 0 sec. 0 microseconds.
+Thread 15: 0 sec. 0 microseconds.
+Total time: 0 s. and 1647 microseconds.
+
+Big image with mode BLOCK
+
+Program has 1 threads and mode: block
+Thread 0: 0 sec. 4512 microseconds.
+Total time: 0 s. and 9380 microseconds.
+
+Program has 2 threads and mode: block
+Thread 0: 0 sec. 2336 microseconds.
+Thread 1: 0 sec. 2302 microseconds.
+Total time: 0 s. and 7421 microseconds.
+
+Program has 4 threads and mode: block
+Thread 0: 0 sec. 1255 microseconds.
+Thread 1: 0 sec. 1203 microseconds.
+Thread 2: 0 sec. 1212 microseconds.
+Thread 3: 0 sec. 1226 microseconds.
+Total time: 0 s. and 6680 microseconds.
+
+Program has 8 threads and mode: block
+Thread 0: 0 sec. 919 microseconds.
+Thread 1: 0 sec. 853 microseconds.
+Thread 2: 0 sec. 884 microseconds.
+Thread 3: 0 sec. 1006 microseconds.
+Thread 4: 0 sec. 970 microseconds.
+Thread 5: 0 sec. 1086 microseconds.
+Thread 6: 0 sec. 909 microseconds.
+Thread 7: 0 sec. 752 microseconds.
+Total time: 0 s. and 9589 microseconds.
+
+Program has 16 threads and mode: block
+Thread 0: 0 sec. 435 microseconds.
+Thread 1: 0 sec. 407 microseconds.
+Thread 2: 0 sec. 387 microseconds.
+Thread 3: 0 sec. 581 microseconds.
+Thread 4: 0 sec. 519 microseconds.
+Thread 5: 0 sec. 437 microseconds.
+Thread 6: 0 sec. 580 microseconds.
+Thread 7: 0 sec. 604 microseconds.
+Thread 8: 0 sec. 526 microseconds.
+Thread 9: 0 sec. 497 microseconds.
+Thread 10: 0 sec. 571 microseconds.
+Thread 11: 0 sec. 492 microseconds.
+Thread 12: 0 sec. 503 microseconds.
+Thread 13: 0 sec. 411 microseconds.
+Thread 14: 0 sec. 346 microseconds.
+Thread 15: 0 sec. 376 microseconds.
+Total time: 0 s. and 10060 microseconds.
+
+Small image with mode NUMBERS
+
+Program has 1 threads and mode: numbers
+Thread 0: 0 sec. 4 microseconds.
+Total time: 0 s. and 342 microseconds.
+
+Program has 2 threads and mode: numbers
+Thread 0: 0 sec. 4 microseconds.
+Thread 1: 0 sec. 2 microseconds.
+Total time: 0 s. and 389 microseconds.
+
+Program has 4 threads and mode: numbers
+Thread 0: 0 sec. 5 microseconds.
+Thread 1: 0 sec. 2 microseconds.
+Thread 2: 0 sec. 1 microseconds.
+Thread 3: 0 sec. 2 microseconds.
+Total time: 0 s. and 622 microseconds.
+
+Program has 8 threads and mode: numbers
+Thread 0: 0 sec. 4 microseconds.
+Thread 1: 0 sec. 2 microseconds.
+Thread 2: 0 sec. 2 microseconds.
+Thread 3: 0 sec. 2 microseconds.
+Thread 4: 0 sec. 1 microseconds.
+Thread 5: 0 sec. 2 microseconds.
+Thread 6: 0 sec. 2 microseconds.
+Thread 7: 0 sec. 2 microseconds.
+Total time: 0 s. and 1108 microseconds.
+
+Program has 16 threads and mode: numbers
+Thread 0: 0 sec. 4 microseconds.
+Thread 1: 0 sec. 2 microseconds.
+Thread 2: 0 sec. 2 microseconds.
+Thread 3: 0 sec. 2 microseconds.
+Thread 4: 0 sec. 2 microseconds.
+Thread 5: 0 sec. 2 microseconds.
+Thread 6: 0 sec. 1 microseconds.
+Thread 7: 0 sec. 2 microseconds.
+Thread 8: 0 sec. 1 microseconds.
+Thread 9: 0 sec. 1 microseconds.
+Thread 10: 0 sec. 1 microseconds.
+Thread 11: 0 sec. 1 microseconds.
+Thread 12: 0 sec. 2 microseconds.
+Thread 13: 0 sec. 1 microseconds.
+Thread 14: 0 sec. 1 microseconds.
+Thread 15: 0 sec. 2 microseconds.
+Total time: 0 s. and 1434 microseconds.
+
+Big image with mode NUMBERS
+
+Program has 1 threads and mode: numbers
+Thread 0: 0 sec. 11740 microseconds.
+Total time: 0 s. and 26244 microseconds.
+
+Program has 2 threads and mode: numbers
+Thread 0: 0 sec. 6193 microseconds.
+Thread 1: 0 sec. 11983 microseconds.
+Total time: 0 s. and 32878 microseconds.
+
+Program has 4 threads and mode: numbers
+Thread 0: 0 sec. 6823 microseconds.
+Thread 1: 0 sec. 6704 microseconds.
+Thread 2: 0 sec. 5611 microseconds.
+Thread 3: 0 sec. 12089 microseconds.
+Total time: 0 s. and 46218 microseconds.
+
+Program has 8 threads and mode: numbers
+Thread 0: 0 sec. 12263 microseconds.
+Thread 1: 0 sec. 10439 microseconds.
+Thread 2: 0 sec. 11639 microseconds.
+Thread 3: 0 sec. 11148 microseconds.
+Thread 4: 0 sec. 12063 microseconds.
+Thread 5: 0 sec. 10612 microseconds.
+Thread 6: 0 sec. 6933 microseconds.
+Thread 7: 0 sec. 12759 microseconds.
+Total time: 0 s. and 114910 microseconds.
+
+Program has 16 threads and mode: numbers
+Thread 0: 0 sec. 11863 microseconds.
+Thread 1: 0 sec. 10393 microseconds.
+Thread 2: 0 sec. 10807 microseconds.
+Thread 3: 0 sec. 10216 microseconds.
+Thread 4: 0 sec. 10965 microseconds.
+Thread 5: 0 sec. 11496 microseconds.
+Thread 6: 0 sec. 14924 microseconds.
+Thread 7: 0 sec. 10150 microseconds.
+Thread 8: 0 sec. 10762 microseconds.
+Thread 9: 0 sec. 10929 microseconds.
+Thread 10: 0 sec. 11179 microseconds.
+Thread 11: 0 sec. 10882 microseconds.
+Thread 12: 0 sec. 11453 microseconds.
+Thread 13: 0 sec. 10274 microseconds.
+Thread 14: 0 sec. 7375 microseconds.
+Thread 15: 0 sec. 13648 microseconds.
+Total time: 0 s. and 215608 microseconds.
+
+
+Komentarz: 
+W trybie NUMBERS wyniki czasow sa wyzsze niz w trybie BLOCK.
+Program trybu NUMBERS wymaga znalezienia odpowiednich 
+wartosci w calej macierzy dla kazdego watku,
+dlatego dane nie sa rozlozone rownomiernie na watki i dziala dluzej niz w trybie block.

@@ -1,0 +1,32 @@
+Parametr ignore:
+
+Dla parametru ignore:
+- program zad1 ignoruje sygnal SIGUSR1
+- proces potomny dziedziczy ignorowanie i tez ignoruje sygnal SIGUSR1
+- program wywolany funkcją execv tez dziedziczy ignorowanie sygnalu SIGUSR1
+
+Parametr handler:
+Signal SIGUSR1 has been received.
+Signal SIGUSR1 has been received.
+
+Dla parametru handler:
+- program zad1 wywoluje funkcje podana jako handler
+- proces potomny dziedziczy ta dyspozycje i rowniez wywoluje funkcje podana jako handler
+
+Parametr mask:
+Pending SIGUSR1 in subprocess of zad1.
+Pending SIGUSR1 in zad1e.
+
+Dla paramteru mask:
+- program zad1 blokuje sygnal SIGUSR1
+- proces potomny dziedziczy ta dyspozycje i sygnal jest blokowny
+- program wywolany funkcja execv rowniez dziedziczy ta dyspozycje i sygnal jest blokowany
+
+Parametr pending:
+Zad1e see pending SIGUSR1.
+
+Dla parametru pending:
+- program zad1 blokuje sygnal i widzi, ze sygnal oczekuje
+- proces potomny nie widzi, ze sygnal oczekuje u przodka
+- program wywolany funkcja execv widzi, ze sygnal oczekuje u przodka
+

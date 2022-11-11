@@ -1,0 +1,8 @@
+
+
+#define SEM_KEY "SEM"
+#define OVEN_KEY "OVEN"
+#define WORKTOP_KEY "WORKTOP"
+
+#define SHARED_MEM_OVEN "OVEN_MEM"
+#define SHARED_MEM_WORKTOP "WORKTOP_MEM"

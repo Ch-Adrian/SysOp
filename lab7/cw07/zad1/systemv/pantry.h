@@ -1,0 +1,5 @@
+
+
+#define SEM_KEY 54673
+#define OVEN_KEY 542343
+#define TABLE_KEY 135123

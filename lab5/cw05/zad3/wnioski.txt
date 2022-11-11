@@ -1,0 +1,72 @@
+ 1 consumer: 
+make[2]: Entering directory '/home/ch-adrian/CLionProjects/lab5/zad3'
+./check_line in1_s.txt 2 out_NP_1K_s.txt
+Correct!
+./check_line in2_s.txt 5 out_NP_1K_s.txt
+Correct!
+./check_line in3_s.txt 10 out_NP_1K_s.txt
+Correct!
+make[2]: Leaving directory '/home/ch-adrian/CLionProjects/lab5/zad3'
+make[2]: Entering directory '/home/ch-adrian/CLionProjects/lab5/zad3'
+./check_line in1_m.txt 2 out_NP_1K_m.txt
+Correct!
+./check_line in2_m.txt 5 out_NP_1K_m.txt
+Correct!
+./check_line in3_m.txt 10 out_NP_1K_m.txt
+Correct!
+make[2]: Leaving directory '/home/ch-adrian/CLionProjects/lab5/zad3'
+make[2]: Entering directory '/home/ch-adrian/CLionProjects/lab5/zad3'
+./check_line in1_b.txt 2 out_NP_1K_b.txt
+Correct!
+./check_line in2_b.txt 5 out_NP_1K_b.txt
+Correct!
+./check_line in3_b.txt 10 out_NP_1K_b.txt
+Correct!
+make[2]: Leaving directory '/home/ch-adrian/CLionProjects/lab5/zad3'
+ N consumers: 
+make[2]: Entering directory '/home/ch-adrian/CLionProjects/lab5/zad3'
+./check_line in1_s.txt 2 out_1P_NK_s.txt
+Error!
+make[2]: Leaving directory '/home/ch-adrian/CLionProjects/lab5/zad3'
+make[2]: Entering directory '/home/ch-adrian/CLionProjects/lab5/zad3'
+./check_line in1_s.txt 2 out_NP_NK_s.txt
+Error!
+./check_line in2_s.txt 5 out_NP_NK_s.txt
+Correct!
+./check_line in3_s.txt 10 out_NP_NK_s.txt
+Error!
+make[2]: Leaving directory '/home/ch-adrian/CLionProjects/lab5/zad3'
+make[2]: Entering directory '/home/ch-adrian/CLionProjects/lab5/zad3'
+./check_line in1_m.txt 2 out_1P_NK_m.txt
+Error: Cannot read file.
+make[2]: Leaving directory '/home/ch-adrian/CLionProjects/lab5/zad3'
+make[2]: Entering directory '/home/ch-adrian/CLionProjects/lab5/zad3'
+./check_line in1_m.txt 2 out_NP_NK_m.txt
+Error!
+./check_line in2_m.txt 5 out_NP_NK_m.txt
+Correct!
+./check_line in3_m.txt 10 out_NP_NK_m.txt
+Correct!
+make[2]: Leaving directory '/home/ch-adrian/CLionProjects/lab5/zad3'
+make[2]: Entering directory '/home/ch-adrian/CLionProjects/lab5/zad3'
+./check_line in1_b.txt 2 out_1P_NK_b.txt
+Error: Cannot read file.
+make[2]: Leaving directory '/home/ch-adrian/CLionProjects/lab5/zad3'
+make[2]: Entering directory '/home/ch-adrian/CLionProjects/lab5/zad3'
+./check_line in1_b.txt 2 out_NP_NK_b.txt
+Error!
+./check_line in2_b.txt 5 out_NP_NK_b.txt
+Error!
+./check_line in3_b.txt 10 out_NP_NK_b.txt
+Error!
+make[2]: Leaving directory '/home/ch-adrian/CLionProjects/lab5/zad3'
+
+Correct oznacza poprawne wykonanie programu.
+Program dla jednego konsumenta zwraca poprawne wyniki.
+Gdy zwieksza sie liczba konsumentow program dziala niepoprawnie.
+Kopiuje za malo danych lub wstawia dane w nieodpowiednie miejsca
+Dla wartosci n < PIPE_BUF zapisywanie danych do kolejki jest wykonywane bezproblemowo,
+dlatego programy z wieloma producentami i jednym konsumentem dzialaja poprawnie.
+Dla n>= PIPE_BUF nie jest gwarantowanie poprawne kopiowanie danych,
+wiec dla dużych wartości np. 6000( > PIPE_BUF) transport danych moze sie nie udac.
+Dla linuksa wartość PIPE_BUF = 4096 

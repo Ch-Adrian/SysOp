@@ -1,0 +1,28 @@
+Pomiar programu zad1_sys
+
+Wywolana komenda: ./zad1_sys big.txt fdest.txt
+
+real time: 11.8200
+user time:  0.7800
+system time: 11.0100
+
+Wywolana komenda: ./zad1_sys small.txt fdest.txt
+
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Pomiar programu zad1_lib
+
+Wywolana komenda: ./zad1_lib big.txt fdest.txt
+
+real time:  0.3800
+user time:  0.3300
+system time:  0.0100
+
+Wywolana komenda: ./zad1_lib small.txt fdest.txt
+
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+

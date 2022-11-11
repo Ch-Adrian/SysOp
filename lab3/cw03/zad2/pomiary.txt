@@ -1,0 +1,36 @@
+Precision: 0.001  no of processes: 13
+Result: 3.1415924869231265379246332
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Precision: 0.1  no of processes: 5
+Result: 3.1399259889071590165846026
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Precision: 0.00000001  no of processes: 1000
+Result: 3.1415926535897926010019315
+real time:  0.4900
+user time:  0.0000
+system time:  0.0400
+
+Precision: 0.000000001  no of processes: 1000
+Result: 3.1415926535897884318108975
+real time:  4.4400
+user time:  0.0000
+system time:  0.0500
+
+Precision: 0.000000001  no of processes: 3000
+Result: 3.1415926535897923919677527
+real time:  4.5300
+user time:  0.0000
+system time:  0.1300
+
+Precision: 0.000000001  no of processes: 5000
+Result: 3.1415926535897917386275235
+real time:  5.5300
+user time:  0.0100
+system time:  0.2500
+

@@ -1,0 +1,377 @@
+Zadanie 3a
+Executed command: ./zad2_dll
+With parameters: create_table 2 
+
+Time allocating and deallocating all blocks: 
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Executed command: ./zad2_dll
+With parameters: create_table 1 wc_files medium.txt 
+
+Executed command wc on files: medium.txt 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Created block using files: medium.txt 
+Time:
+real time:  0.0100
+user time:  0.0000
+system time:  0.0000
+
+Time allocating and deallocating all blocks: 
+real time:  0.0100
+user time:  0.0000
+system time:  0.0000
+
+Executed command: ./zad2_dll
+With parameters: create_table 10 wc_files medium.txt remove_block 1 
+
+Executed command wc on files: medium.txt 
+Time:
+real time:  0.0100
+user time:  0.0000
+system time:  0.0000
+
+Created block using files: medium.txt 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Removed block nr 1: 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Time allocating and deallocating all blocks: 
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Executed command: ./zad2_dll
+With parameters: create_table 2 wc_files medium.txt remove_block 1 
+
+Executed command wc on files: medium.txt 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Created block using files: medium.txt 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Removed block nr 1: 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Time allocating and deallocating all blocks: 
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Executed command: ./zad2_dll
+With parameters: create_table 3 wc_files wc_files medium.txt remove_block 1 remove_block 2 
+
+Executed command wc on files: 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Created block using files: 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Executed command wc on files: medium.txt 
+Time:
+real time:  0.0100
+user time:  0.0000
+system time:  0.0000
+
+Created block using files: medium.txt 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Removed block nr 1: 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Removed block nr 2: 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Time allocating and deallocating all blocks: 
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Executed command: ./zad2_shared
+With parameters: create_table 2 
+
+Time allocating and deallocating all blocks: 
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Executed command: ./zad2_shared
+With parameters: create_table 1 wc_files medium.txt 
+
+Executed command wc on files: medium.txt 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Created block using files: medium.txt 
+Time:
+real time:  0.0100
+user time:  0.0000
+system time:  0.0000
+
+Time allocating and deallocating all blocks: 
+real time:  0.0100
+user time:  0.0000
+system time:  0.0000
+
+Executed command: ./zad2_shared
+With parameters: create_table 10 wc_files medium.txt remove_block 1 
+
+Executed command wc on files: medium.txt 
+Time:
+real time:  0.0100
+user time:  0.0000
+system time:  0.0000
+
+Created block using files: medium.txt 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Removed block nr 1: 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Time allocating and deallocating all blocks: 
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Executed command: ./zad2_shared
+With parameters: create_table 2 wc_files medium.txt remove_block 1 
+
+Executed command wc on files: medium.txt 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Created block using files: medium.txt 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Removed block nr 1: 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Time allocating and deallocating all blocks: 
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Executed command: ./zad2_shared
+With parameters: create_table 3 wc_files wc_files medium.txt remove_block 1 remove_block 2 
+
+Executed command wc on files: 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Created block using files: 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Executed command wc on files: medium.txt 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Created block using files: medium.txt 
+Time:
+real time:  0.0100
+user time:  0.0000
+system time:  0.0000
+
+Removed block nr 1: 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Removed block nr 2: 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Time allocating and deallocating all blocks: 
+real time:  0.0100
+user time:  0.0000
+system time:  0.0000
+
+Executed command: ./zad2_stat
+With parameters: create_table 2 
+
+Time allocating and deallocating all blocks: 
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Executed command: ./zad2_stat
+With parameters: create_table 1 wc_files medium.txt 
+
+Executed command wc on files: medium.txt 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Created block using files: medium.txt 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Time allocating and deallocating all blocks: 
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Executed command: ./zad2_stat
+With parameters: create_table 10 wc_files medium.txt remove_block 1 
+
+Executed command wc on files: medium.txt 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Created block using files: medium.txt 
+Time:
+real time:  0.0100
+user time:  0.0000
+system time:  0.0000
+
+Removed block nr 1: 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Time allocating and deallocating all blocks: 
+real time:  0.0100
+user time:  0.0000
+system time:  0.0000
+
+Executed command: ./zad2_stat
+With parameters: create_table 2 wc_files medium.txt remove_block 1 
+
+Executed command wc on files: medium.txt 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Created block using files: medium.txt 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Removed block nr 1: 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Time allocating and deallocating all blocks: 
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Executed command: ./zad2_stat
+With parameters: create_table 3 wc_files wc_files medium.txt remove_block 1 remove_block 2 
+
+Executed command wc on files: 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Created block using files: 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Executed command wc on files: medium.txt 
+Time:
+real time:  0.0100
+user time:  0.0000
+system time:  0.0000
+
+Created block using files: medium.txt 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Removed block nr 1: 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Removed block nr 2: 
+Time:
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+Time allocating and deallocating all blocks: 
+real time:  0.0000
+user time:  0.0000
+system time:  0.0000
+
+
+Komentarz: 
+Wyniki sa bardzo podobne do siebie
+Czas wykonania programu nie rozni się ze wzgledu na sposob dołaczenia biblioteki.

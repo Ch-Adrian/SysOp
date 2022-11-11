@@ -1,0 +1,16 @@
+Date: Mon May 16 11:59:07 2022
+ Client's id: 6112 Message: /client6112
+Date: Mon May 16 11:59:10 2022
+ Client's id: 6114 Message: /client6114
+Date: Mon May 16 11:59:15 2022
+ Client's id: 6114 Message: 6112 ala ma kota Mon May 16 11:59:15 2022
+
+Date: Mon May 16 11:59:24 2022
+ Client's id: 6112 Message: message Mon May 16 11:59:24 2022
+
+Date: Mon May 16 11:59:32 2022
+ Client's id: 6112 Message: Command list
+Date: Mon May 16 11:59:37 2022
+ Client's id: 6112 Message: /client6112
+Date: Mon May 16 11:59:37 2022
+ Client's id: 6114 Message: /client6114

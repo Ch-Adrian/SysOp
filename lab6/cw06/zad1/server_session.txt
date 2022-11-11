@@ -1,0 +1,18 @@
+Date: Mon May 16 12:00:00 2022
+ Client's id: -1 Message: 1963271641
+Date: Mon May 16 12:00:04 2022
+ Client's id: -1 Message: 1996826073
+Date: Mon May 16 12:00:08 2022
+ Client's id: 1 Message: 0 ala ma kota Mon May 16 12:00:08 2022
+
+Date: Mon May 16 12:00:27 2022
+ Client's id: 0 Message: 1 ala ma kota Mon May 16 12:00:27 2022
+
+Date: Mon May 16 12:00:43 2022
+ Client's id: 1 Message: Command list
+Date: Mon May 16 12:00:45 2022
+ Client's id: 1 Message: Stopping queue
+Date: Mon May 16 12:00:48 2022
+ Client's id: 0 Message: Command list
+Date: Mon May 16 12:00:50 2022
+ Client's id: 0 Message: Stopping queue
